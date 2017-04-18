@@ -1,4 +1,5 @@
 # simple_registerandlogin
-registration and login 
-this project is to register and login 
+
+this project is to registeration and login for users
+
 
