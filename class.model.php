@@ -9,7 +9,7 @@ include 'regBean.php';
 
     class Model {
         public $conn;
-        public $error=""; 
+        public $error="";
 
         public function __construct() {
              
