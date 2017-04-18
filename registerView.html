@@ -1,0 +1,37 @@
+<html>
+ <head>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js";>
+     </script>
+      <script src = "registerAjax.js"></script>
+    <script src = "register.js"></script>
+     <link rel = "stylesheet" href = "register.css">
+  </head>
+ <body>
+        <h1 style = "color: red;text-align:center">Registration Form</h1>
+  <fieldset>
+          <legend style = "color:red">Registration form</legend>
+       <div class = "div">
+    <form name = "form1" method = "post" action = "register.php" onsubmit = "return validate()">
+    Enter Name: <input type = "text" name = "fname" placeholder = "enter your name"><span id="name">*</span><br>
+    Gender : Male<input type = "radio" name = "gender" value = "male"> Female<input type = "radio" name = "gender" value = "female"><span  id="gender">*</span><br>
+    Enter city: <select name = "city">
+                <option value = "">---enter the city ----</option>
+	        <option value = "gulbarga">gulbarga</option>
+                <option value = "bangalore">bangalore</option>
+                <option value = "mysore" >mysore </option>
+                </select><span id="city">*</span><br>
+    Enter email: <input type = "text" name = "email" id="emails" ><span id="email">*</span><br>
+    Enter password: <input type = "password" name = "pass"><span id="pass">*</span><br>
+    Conform password: <input type = "password" name = "rpass"><span id="rpass">*</span><br>
+                       <input type = "submit" value = "REGISTER">
+                      <br><br>
+                      <span style = "color: red">if you registerd?<a href = "loginView.php">LOGIN</a></span>
+    </form>
+</div>
+ <span style = "color:red">*Required feilds</span>
+    </fieldset>
+
+ 
+</body>
+</html>
+
